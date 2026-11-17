@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "QuranSwift",
+    "slug": "QuranSwift",
+    "scheme": "quranswift",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "supportsRTL": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.quranswift.tracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#0E2B25"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "color": "#0e2b25"
+        }
+      ],
+      "@react-native-google-signin/google-signin"
+    ]
+  }
+}
